@@ -22,3 +22,23 @@ Adafruit_SSD1306.h
 - [ ] Button Support
 - [ ] Screen burn protection (colour inversion etc)
 - [ ] Ability to control Modes and Proxy selections
+
+### Setup
+
+Create a file called `config.h` and input the following code. Replace the URL details with your Clash proxy information.
+
+```c
+const char* ssid     = "YOUR SSID";
+const char* password = "YOUR WIFI PASSWORD";
+
+const char* serverName = "http://10.0.0.1:9090/configs";
+const char* serverName2 = "http://10.0.0.1:9090/traffic";
+```
+
+Connect your NodeMCU Prototype board to your commputer and connect the SSD1306 as follows
+```
+SDA - D2
+SCL - D1 
+VCC - 3V3
+GND - GND
+```
