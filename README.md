@@ -4,7 +4,7 @@ A NodeMCU based status screen using a 1306 OLED Screen to display information ab
 
 ![Example](https://raw.githubusercontent.com/RichardTHF/NodeMCU---Clash-Status-Screen/main/image/example1.png)
 
-##Required libraries
+### Required libraries
 ```c
 Wire.h
 ArduinoJson.h
@@ -13,7 +13,7 @@ Adafruit_GFX.h
 Adafruit_SSD1306.h
 ```
 
-##Features
+### Features
 - [x] Displays Proxy Mode (Global/Rule/Direct)
 - [x] Display current traffic (Upload and Download speeds)
 - [ ] Pagination (in-progress)
