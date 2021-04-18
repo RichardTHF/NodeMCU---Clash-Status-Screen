@@ -2,7 +2,7 @@
 
 A NodeMCU based status screen using a 1306 OLED Screen to display information about your Clash rule-based tunnel.
 
-![Example](images/example1.png)
+![Example](https://raw.githubusercontent.com/RichardTHF/NodeMCU---Clash-Status-Screen/main/image/example1.png)
 
 ##Required libraries
 ```c
